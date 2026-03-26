@@ -1,11 +1,11 @@
-# Step 3: Implement CompatibilityResolver Class
+# Step 3: Implement Compatibility Resolver
 
 **File to create:** `main.py`
 **Estimated size:** ~200 lines
 
 ## Instructions
 
-Write a Python script that defines a CompatibilityResolver class. This class should have a method to resolve the correct contract version given the agent tool-call schema version, tool integration version capabilities, and input payload fingerprint. It should use the ContractVersionRegistry to make its decisions. BUDGET: ≤50 LOC, 1 file only.
+Write a Python script that defines a CompatibilityResolver class. This class should use the ContractVersionRegistry to determine the best contract version for a given agent tool-call schema version, tool integration version capabilities, and input payload fingerprint. The resolver should return the chosen contract version or handle mismatches safely. BUDGET: ≤50 LOC, 1 file only.
 
 ## Verification
 

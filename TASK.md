@@ -19,6 +19,8 @@ What to build: a small service + library with:
 ## Relevant Existing Artifacts (import/extend if useful)
 
 ## Relevant existing artifacts (check before building):
+  - **implement-a-tool-integration-contract-ve** [has tests] (similarity 55%)
+    Routes agent→tool calls to the appropriate contract version using ContractVersionRegistry.
   - **implement-an-agent-tool-availability-fal** [has tests] (similarity 52%)
     A coordination tool that routes agent tool calls to available tools with validated fallbacks. Given an agent's current tool registry state plus a plan
   - **implement-a-tool-call-contract-linter-fo** (similarity 52%)
@@ -27,8 +29,6 @@ What to build: a small service + library with:
     A CLI/library that turns an agent's requested capability into a validated execution plan over a tool graph (nodes=tools, edges=requirement/data/format
   - **implement-an-agent-integration-rollback** (similarity 51%)
     A coordination tool that safely rolls back an agent's tool/integration configuration to a known-good state when downstream integration checks fail.
-  - **implement-an-integration-contract-diff-m** [has tests] (similarity 50%)
-    A CLI tool and library that compares two versions of an agent integration contract and generates:
 
 ## Related completed tasks:
   - Implement a Tool-Call Contract Linter for Agent Tool Specs

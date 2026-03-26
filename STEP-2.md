@@ -1,11 +1,11 @@
-# Step 2: Add README Documentation
+# Step 2: Create README
 
 **File to create:** `main.py`
 **Estimated size:** ~200 lines
 
 ## Instructions
 
-Create a README.md file that documents the ContractVersionRegistry class, its methods, and how to use it. Include examples and usage instructions. BUDGET: ≤50 LOC, 1 file only.
+Write a README.md file that explains how to use the ContractVersionRegistry class. Include instructions for registering contract versions, managing deprecation windows, and querying compatibility information. BUDGET: ≤50 LOC, 1 file only.
 
 ## Verification
 

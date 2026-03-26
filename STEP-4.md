@@ -5,7 +5,7 @@
 
 ## Instructions
 
-Write a README.md file that explains how to use the CompatibilityResolver class. Include instructions on how to run the script and any necessary setup. BUDGET: ≤30 LOC, 1 file only.
+Write a README.md file that explains how to use the CompatibilityResolver class. Include usage examples and any necessary setup instructions. BUDGET: ≤50 LOC, 1 file only.
 
 ## Verification
 
